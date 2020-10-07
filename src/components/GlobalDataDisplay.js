@@ -28,9 +28,6 @@ export default function GlobalDataDisplay() {
            delete data.results[0].source;
            delete data.results[0].total_recovered;
            delete data.results[0].total_unresolved;
-           delete data.results[0].total_new_cases_today;
-           delete data.results[0].total_new_deaths_today;
-           delete data.results[0].total_active_cases;
            delete data.results[0].total_serious_cases;
            setglobaldata(data.results[0]);
       }
